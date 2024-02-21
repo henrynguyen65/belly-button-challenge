@@ -50,7 +50,8 @@ function buildCharts(sample) {
       mode: "markers",
       marker: {
         size: selectedSample.sample_values,
-        color: selectedSample.otu_ids
+        color: selectedSample.otu_ids,
+        colorscale: "YlGnBu",
       }
     }];
 
